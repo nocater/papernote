@@ -1,0 +1,68 @@
+% Encoding: UTF-8
+
+@InCollection{Krizhevsky2012,
+  author    = {Alex Krizhevsky and Sutskever, Ilya and Hinton, Geoffrey E},
+  title     = {ImageNet Classification with Deep Convolutional Neural Networks},
+  booktitle = {Advances in Neural Information Processing Systems 25},
+  year      = {2012},
+  editor    = {F. Pereira and C. J. C. Burges and L. Bottou and K. Q. Weinberger},
+  publisher = {Curran Associates, Inc.},
+  pages     = {1097--1105},
+  url       = {http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf},
+  comment   = {Google 2012年ImageNet排名第一},
+  file      = {:paper/imagenetclassificationCNN.pdf:PDF},
+  owner     = {[C]NIPS},
+}
+
+@Article{Srivastava2014,
+  author    = {Nitish Srivastava and Geoffrey Hinton and Alex Krizhevsky and Ilya Sutskever and Ruslan Salakhutdinov},
+  title     = {Dropout: A Simple Way to Prevent Neural Networks from Overfitting},
+  journal   = {Journal of Machine Learning Research},
+  year      = {2014},
+  volume    = {15},
+  pages     = {1929-1958},
+  url       = {http://jmlr.org/papers/v15/srivastava14a.html},
+  comment   = {Dropout技术},
+  file      = {:paper/JMLRdropout.pdf:PDF},
+  owner     = {[A]JMLR},
+  timestamp = {2018-04-18},
+}
+
+@Article{,
+  author    = {DevanshArpit},
+  title     = {A Closer Look at Memorization in Deep Networks},
+  journal   = {NULL},
+  year      = {2017},
+  date      = {2017-01-01},
+  url       = {https://arxiv.org/pdf/1706.05394},
+  abstract  = {We examine the role of memorization in deep learning, drawing connections to capacity, generalization, and adversarial robustness. While deep networks are capable of memorizing noise data, our results suggest that they tend to prioritize learning simple patterns ﬁrst. In our experiments, we expose qualitative differences in gradient-based optimization of deep neural networks (DNNs) on noise vs. real data. We also demonstrate that for appropriately tuned explicit regularization (e.g., dropout) we can degrade DNN training performance on noise datasetswithoutcompromisinggeneralizationon real data. Our analysis suggests that the notions of effective capacity which are dataset independent are unlikely to explain the generalization performanceofdeepnetworkswhentrainedwith gradient based methods because training data itself plays an important role in determining the degree of memorization.
+},
+  comment   = {DNN先学习后记忆},
+  file      = {:paper/ACloserLookatMemorizationinDeepNetworks.pdf:PDF},
+  owner     = {NULL},
+  timestamp = {2018-03-26},
+}
+
+@InProceedings{Ioffe2015,
+  author    = {Ioffe, Sergey and Szegedy, Christian},
+  title     = {Batch normalization: Accelerating deep network training by reducing internal covariate shift},
+  booktitle = {NULL},
+  year      = {2015},
+  language  = {English},
+  volume    = {1},
+  note      = {Classification models;Covariate shifts;Deep neural networks;Higher learning;Learning rates;Model architecture;Network training;State of the art;},
+  pages     = {448-456},
+  url       = {https://www.engineeringvillage.com/search/doc/abstract.url?&pageType=quickSearch&usageZone=resultslist&usageOrigin=searchresults&searchtype=Quick&SEARCHID=fe1865a8Ma2d0M4c74Ma439M0d1910fd4650&DOCINDEX=1&ignore_docid=cpx_626caa911554ab001deM7b6c10178163171&database=1&format=quickSearchAbstractFormat&tagscope=&displayPagination=yes},
+  abstract  = {Training Deep Neural Networks is complicated by the fact that the distribution of each layer's inputs changes during training, as the parameters of the previous layers change. This slows down the training by requiring lower learning rates and careful parameter initialization, and makes it notoriously hard to train models with saturating nonlinearities. We refer to this phenomenon as internal covariate shift, and address the problem by normalizing layer inputs. Our method draws its strength from making normalization a part of the model architecture and performing the normalization for each training mini-batch. Batch Normalization allows us to use much higher learning rates and be less careful about initialization, and in some cases eliminates the need for Dropout. Applied to a state-of-the-art image classification model, Batch Normalization achieves the same accuracy with 14 times fewer training steps, and beats the original model by a significant margin. Using an ensemble of batch-normalized networks, we improve upon the best published result on ImageNet classification: reaching 4.82% top-5 test error, exceeding the accuracy of human raters.},
+  address   = {Lile, France},
+  comment   = {Batch Normalization},
+  copyright = {Compilation and indexing terms, Copyright 2018 Elsevier Inc.},
+  file      = {:paper/BatchNormalization.pdf:PDF},
+  journal   = {32nd International Conference on Machine Learning, ICML 2015},
+  key       = {Image classification},
+  keywords  = {Artificial intelligence;Learning systems;},
+  owner     = {[A]ICML},
+  timestamp = {2018-05-13},
+}
+
+@Comment{jabref-meta: databaseType:biblatex;}
