@@ -238,4 +238,22 @@
   owner     = {[C]ACM},
 }
 
+@InBook{Bengio2006,
+  author    = {Bengio, Yoshua and Schwenk, Holger and Sen{\'e}cal, Jean-S{\'e}bastien and Morin, Fr{\'e}deric and Gauvain, Jean-Luc},
+  title     = {Neural Probabilistic Language Models},
+  booktitle = {Innovations in Machine Learning: Theory and Applications},
+  year      = {2006},
+  editor    = {Holmes, Dawn E. and Jain, Lakhmi C.},
+  publisher = {Springer Berlin Heidelberg},
+  isbn      = {978-3-540-33486-6},
+  pages     = {137--186},
+  doi       = {10.1007/3-540-33486-6_6},
+  url       = {https://doi.org/10.1007/3-540-33486-6_6},
+  abstract  = {A central goal of statistical language modeling is to learn the joint probability function of sequences of words in a language. This is intrinsically difficult because of the curse of dimensionality: a word sequence on which the model will be tested is likely to be different from all the word sequences seen during training. Traditional but very successful approaches based on n-grams obtain generalization by concatenating very short overlapping sequences seen in the training set. We propose to fight the curse of dimensionality by learning a distributed representation for words which allows each training sentence to inform the model about an exponential number of semantically neighboring sentences. Generalization is obtained because a sequence of words that has never been seen before gets high probability if it is made of words that are similar (in the sense of having a nearby representation) to words forming an already seen sentence. Training such large models (with millions of parameters) within a reasonable time is itself a significant challenge. We report on several methods to speed-up both training and probability computation, as well as comparative experiments to evaluate the improvements brought by these techniques. We finally describe the incorporation of this new language model into a state-of-the-art speech recognizer of conversational speech.},
+  address   = {Berlin, Heidelberg},
+  comment   = {经典NNLM模型},
+  file      = {NLP-NNLM:paper/NLP/NNLM-ANeuralProbabilisticLanguageModel.pdf:PDF},
+  keywords  = {rank4},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}
